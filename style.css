@@ -1,0 +1,185 @@
+body {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+/* Homepage */
+
+.home {
+  height: 100vh;
+}
+
+.hero {
+  width: 100vw;
+  height: 40vh;
+  margin-bottom: 3rem;
+}
+
+.home h3,h1,
+p {
+  text-align: center;
+  margin :1rem ;
+}
+.home .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  justify-items: center;
+}
+
+.home button {
+  width: 50%;
+  height: 50px;
+  margin: 10px;
+  border-radius: 1rem;
+  background: #6807F9;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 3px 1px #27045B;
+}
+
+.home .lbtn {
+  background: #6807F9;
+  box-shadow: 1px 3px 1px #27045B;
+}
+
+.home button:hover {
+  background: #27045B;
+  box-shadow: 1px 3px 1px #6807F9;
+}
+
+.circles {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background: #6807F9;
+  border-radius: 50%;
+}
+
+.active {
+  background: gray;
+}
+
+/* login up */
+.login {
+  display: none ;
+  height: 100vh;
+  width: 100%;
+  margin-top: 1rem ;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+input {
+  width: 75%;
+  height: 30px;
+  margin: 10px;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+/* sign up */
+.signup {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  margin-top: 1rem ;
+}
+
+h3,h1 {
+  color: #6807F9;
+  text-align: center;
+}
+
+p {
+  color: #27045B;
+}
+
+.login button {
+  width: 80%;
+  height: 50px;
+  margin: 10px;
+  border-radius: 1rem;
+  background: #6807F9;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 3px 1px #27045B;
+}
+
+.signup button {
+  width: 80%;
+  height: 50px;
+  margin: 10px;
+  border-radius: 1rem;
+  background: #6807F9;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 3px 1px #27045B;
+}
+
+.buttons {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.buttons .gl,
+.buttons .fb {
+  width: 50%;
+  background: #fff;
+  color: #27045B;
+  box-shadow: 1px 1px 3px 1px #27045B;
+}
+form .sp{
+  margin-bottom : 2rem ;
+  margin-top: 3rem ;
+}
+.fp{
+  color: #6807F9;
+  text-align: right;
+}
+.back{
+  border: 1px solid #6807F9 ;
+  border-radius : 50%;
+  width: 2rem;
+  height : 2rem ;
+  margin-left :1rem ;
+}
+.bicon{
+  display: flex;
+  flex-direction : column;
+  text-align: center;
+  font-size: 1.5rem ;
+  color: #6807F9 ;
+}
