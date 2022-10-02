@@ -156,10 +156,14 @@ p {
 
 .buttons .gl,
 .buttons .fb {
+  display: flex;
+  flex-direction : row;
   width: 50%;
   background: #fff;
   color: #27045B;
   box-shadow: 1px 1px 3px 1px #27045B;
+  align-items: center ;
+  justify-content: center;
 }
 form .sp{
   margin-bottom : 2rem ;
@@ -182,4 +186,9 @@ form .sp{
   text-align: center;
   font-size: 1.5rem ;
   color: #6807F9 ;
+}
+.social{
+  width : 30px;
+  height: 25px;
+  margin-right: 10px;
 }
